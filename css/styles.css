@@ -472,6 +472,7 @@ a {
 
 /*SERVICES*/
 .services {
+    position: relative;
     padding: 0 0 64px;
 }
 
@@ -580,7 +581,13 @@ a {
     to {
       transform: translate(0, 6px) scale(1, 0.8);
     }
-  }
+}
+
+.services__bird--top-left {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 /*REVIEWS*/
 .reviews {
@@ -1061,6 +1068,17 @@ a {
 
     .services__img {
         width: 345px;
+    }
+
+    .services__bird--top-left {
+        top: -70px;
+        width: 131.82px;
+        height: 80.72px;
+    }
+
+    .services__bird--bottom-right {
+        width: 161.56px;
+        height: 68.59px;
     }
 
     .reviews {
