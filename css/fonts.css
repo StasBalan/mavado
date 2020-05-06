@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Bio Sans";
+    src: url("../fonts/BioSans-Regular.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Bio Sans";
+    src: url("../fonts/BioSans-Bold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Bio Sans Light";
+    src: url("../fonts/BioSans-Light.otf");
+    font-weight: 300;
+}
