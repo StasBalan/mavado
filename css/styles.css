@@ -872,7 +872,6 @@ a {
 .form__content {
     display: flex;
     margin-bottom: 25px;
-    margin-right: 39px;
 }
 
 .form__content form {
@@ -880,6 +879,7 @@ a {
     flex-direction: column;
     flex-shrink: 0;
     width: 446px;
+    margin-right: 39px;
 }
 
 .form__content form .form__input {
@@ -927,6 +927,15 @@ a {
     font-size: 18px;
     font-weight: 600;
     color: var(--white);
+}
+
+.form__text--mobile {
+    display: none;
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #292929;
+    text-align: center;
 }
 
 @media screen and (max-width: 420px) {
@@ -1245,5 +1254,49 @@ a {
     .application-sent-content__button {
         padding: 10px 68px;
         font-size: 16px;
+    }
+
+    .form {
+        padding: 41px 0;
+    }
+
+    .form__title {
+        margin-bottom: 34px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .form__content {
+        margin-bottom: 27px;
+    }
+
+    .form__content form {
+        width: 344px;
+    }
+
+    .form__content form {
+        margin-right: 0;
+    }
+
+    .form__content form .form__input {
+        padding: 9px 23px;
+        margin-bottom: 19px;
+    }
+    
+    .form__content form .form__button-file {
+        width: 186px;
+        height: 31px;
+    }    
+
+    .form__text {
+        display: none;
+    }
+
+    .form__button-send {
+        padding: 10px 55px;
+    }
+
+    .form__text--mobile {
+        display: block;
     }
 }
