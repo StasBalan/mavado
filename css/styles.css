@@ -1225,4 +1225,25 @@ a {
     .footer-feedback__email {
         font-size: 22px;
     }
+
+    .application-sent-content__img {
+        margin-bottom: 36px;
+    }
+
+    .application-sent-content__wrapp-text {
+        font-size: 18px;
+    }
+
+    .application-sent-content__title {
+        margin-bottom: 16px;
+    }
+
+    .application-sent-content__text {
+        font-size: 14px;
+    }
+
+    .application-sent-content__button {
+        padding: 10px 68px;
+        font-size: 16px;
+    }
 }
